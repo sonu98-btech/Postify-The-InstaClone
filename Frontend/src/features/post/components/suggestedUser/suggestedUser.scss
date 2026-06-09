@@ -1,0 +1,59 @@
+.suggestedUser-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+    width: 100%;
+    .para{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    p{
+        color: rgb(255, 255, 255);
+    }
+    .suggestedUser{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 90%;
+         div{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+         
+        .img-button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-radius: 50%;
+            img{
+
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                border-radius: 50%;
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+    }
+}
+.follow-button{
+    border: none;
+    outline: none;
+    padding-inline:1rem;
+    padding-block: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    &:active{
+        transform: scale(0.9);
+    }
+}

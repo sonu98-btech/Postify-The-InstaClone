@@ -1,0 +1,43 @@
+.auth-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .form-container{
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        gap: 1rem;
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            input{
+                padding-block: 1rem;
+                padding-inline:1rem;
+                border-radius: 0.5rem;
+                border: none;
+                color: rgb(0, 0, 0);           
+             }
+            button{
+                padding: 1rem;
+                border-radius: 0.5rem;
+                border: none;
+                outline: none;
+                background-color: rgb(255, 0, 0);
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                &:active{
+                    transform: scale(0.98);
+                }
+            }
+        }
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+        }
+    }
+
+}
